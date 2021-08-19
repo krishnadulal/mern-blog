@@ -1,0 +1,19 @@
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(83, 86, 90);
+}
+
+.main {
+  position: relative; 
+  color: #343a40;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    width: 100%;
+  }
+}
