@@ -55,7 +55,6 @@ export class HomePage extends Component {
              {this.props.button && <Link className='divStyle' to="/register">
                <Button  size="lg"  color="light">Register</Button>
              </Link>}
-
           </div>
         </div>
     </div>
